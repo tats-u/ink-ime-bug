@@ -1,4 +1,4 @@
-# React Ink useInput bug report
+# React Ink TextInput bug report
 
 ```sh
 pnpm i
