@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "scripts": {
+    "run": "tsx src/index.tsx",
+    "build": "tsc src/index.tsx --outDir dist",
+    "start": "node dist/index.js"
+  },
+  "packageManager": "pnpm@10.6.4",
+  "dependencies": {
+    "@inkjs/ui": "^2.0.0",
+    "ink": "^6.0.1",
+    "react": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "@types/react": "^19.1.8",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
